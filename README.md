@@ -2,7 +2,7 @@
 
 ### 1. Description:
 
-This is a quantum convolutional neural network with autoencoder and PCA used for dimension reduction.The QCNN_Code carries audio and image classification code for QCNN.
+This is a quantum convolutional neural network with autoencoder and PCA used for dimension reduction.The QCNN_Code folder carries audio and image classification code for QCNN.
 
 ### 2. Ansatzes used in Convolutional Layer and Pooling Layer
 Ansatzes used in this [papers](https://arxiv.org/abs/2108.00661) are
@@ -55,7 +55,10 @@ if dataset == 'fashion_mnist':
         (x_train, y_train), (x_test, y_test) = tf.keras.datasets.fashion_mnist.load_data()
 
 elif dataset == 'mnist':
-
         (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
 ```
+
+### 7. Conclusion:
+
+The image classification has an accuracy of around 98%, whereas the audio classification has an accuracy of around 75%. It can be improved by increasing the number of qubits or using Hybrid QCNN.
