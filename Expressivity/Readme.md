@@ -1,1 +1,8 @@
+# Expressivity
+Expressivity in Quantum Computing refers to a quantum circuit's ability to generate a diverse set of quantum states or implement a wide range of unitary operations. It measures how well a circuit can explore the full space of possible quantum states, akin to how expressive it is in representing complex quantum behaviors.
 
+Most circuits start with decent expressivity (KL divergence ~2-3 at 1 layer) but degrade significantly as layers increase, with only the U_SU4 architecture maintaining relatively stable performance across all layers. 
+The simple U_TTN circuit shows particularly unstable behavior with wild fluctuations, while the U_9 circuit, despite having the best initial expressivity (KL=2.17 at 1 layer), catastrophically collapses at higher depths (KL=12.19 at 5 layers). This suggests that fixed gates like Hadamards in U_9 constrain the state space at depth, while the more flexible U_SU4 architecture's complete SU(4) parameterization helps maintain expressivity. The results reveal a fundamental tension in quantum circuit design - while certain architectures can achieve good initial expressivity, maintaining this through multiple layers requires careful balancing of parameterization and gate diversity. 
+
+
+The CRX-based circuits (U_6) generally outperform their CRZ counterparts (U_5), and CZ gates (U_9) show better initial performance than CNOT gates (U_15), though these advantages disappear at higher depths. These findings have important implications for quantum machine learning, suggesting that shallow circuits may benefit from U_9-like architectures, while deeper circuits require the more stable U_SU4 design or potentially hybrid approaches combining different architectural strengths.
