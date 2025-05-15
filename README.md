@@ -1,4 +1,8 @@
-# Supreme-QCNN
+# Supreme-QCNN (Quantum Convolutional Neural Network)
+
+## Work Credits / © Copyright
+
+Feel free to mention this repository in your work and give a star to the project. 
 
 ### 1. Description:
 
@@ -100,3 +104,6 @@ elif dataset == 'mnist':
 
 ### 7. Conclusion: 
 Image classification has a higher accuracy, which is around 98%, and audio classification seems to have an accuracy near 75%. The audio accuracy can be increased using Hybrid QCNN or by using different data pre-processing techniques.
+
+
+
