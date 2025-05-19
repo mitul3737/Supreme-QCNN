@@ -14,6 +14,19 @@ Once it's forked, just go to the folders and run the ipynb files.
 This is a quantum convolutional neural network with autoencoder and PCA used for dimension reduction.
 
 ### 2. Ansatzes used in Convolutional Layer and Pooling Layer
+
+An ansatz is a structured quantum circuit with adjustable parameters (e.g., rotation angles) that define a family of quantum states. It is used to explore the solution space in optimization problems.
+
+### Types of Ansätze:
+
+i). Problem-Inspired Ansätze: Designed based on the problem's structure (e.g., UCCSD for quantum chemistry).
+
+ii) Hardware-Efficient Ansätze: Built using gates native to a specific quantum processor (e.g., Rigetti’s or IBM’s gate sets).
+
+iii) Layer-Based Ansätze (Alternating Operator Ansatz): Used in QAOA, where layers of mixing and problem Hamiltonians alternate.
+
+iv) Random or Ad-Hoc Ansätze: Constructed heuristically for flexibility but may suffer from trainability issues.
+
 Ansatzes used in this [paper](https://arxiv.org/abs/2108.00661)
 ![image](https://github.com/user-attachments/assets/ddc84a2f-4608-4715-a5f2-45a57529b28e)
 
@@ -24,7 +37,7 @@ The accuracy of a QCNN also depends on ansatzes. So, checking its [expressivity]
 
 
 Encoding refers to the process of mapping classical data (numbers, vectors, images, etc.) into quantum states that can be processed by a quantum computer. Since quantum algorithms operate on qubits, classical information must first be converted into a quantum-readable format. 
-This step is crucial for quantum machine learning (QML), optimization, and simulation tasks. There are encoding techniques lie Basis Encoding, Amplitude Encoding, Angle Encoding, Qubit Encoding, Hamiltonian Encoding etc.
+This step is crucial for quantum machine learning (QML), optimization, and simulation tasks. There are encoding techniques like Basis Encoding, Amplitude Encoding, Angle Encoding, Qubit Encoding, Hamiltonian Encoding etc.
 
 Here, we have used Angular Hybrid Encoding and Amplitude Hybrid Encoding.
 
