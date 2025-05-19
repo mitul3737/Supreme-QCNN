@@ -88,9 +88,9 @@ Purpose: Quantum many-body systems.
 
 Key Idea: Uses matrix product states (MPS) or projected entangled pair states (PEPS).
 
-Paper: "Quantum algorithms for quantum chemistry and quantum materials science" (McArdle et al., 2020)
+Paper: [Quantum algorithms for quantum chemistry and quantum materials science" (McArdle et al., 2020)](https://arxiv.org/abs/2001.03685)
 
-Resource: TensorNetwork on Google Research
+Resource: [TensorNetwork on Google Research](https://github.com/google/TensorNetwork)
 
 6. Neural Network-Inspired Ansätze (Quantum Neural Networks, QNNs)
 Purpose: Quantum machine learning.
