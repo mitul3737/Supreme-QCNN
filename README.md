@@ -82,7 +82,7 @@ They measure the difference between predicted outputs and true labels, but they 
 
 ### 6. Training and Test Dataset:
 
-For the audio classification, the Capuchinbird's audio Mel spectrogram is used. 
+For the audio classification, the [Capuchinbird's audio](https://www.kaggle.com/datasets/kenjee/z-by-hp-unlocked-challenge-3-signal-processing) Mel spectrogram is used. 
 
 Here the training dataset path is ```Dataset/Mel_Spectrograams/Train/Parsed_Capuchinbird_Clips and Dataset/Mel_Spectrograams/Train/Parsed_Not_Capuchinbird_Clips```
 
